@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <div class="main-header">
+        <div class="main-navigation">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="img/recimag.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto d-flex">
+                      <li class="nav-item">
+                        <a class="nav-link fs-3 px-3" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3 px-3" href="gallery.html">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3 px-3" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3 px-3" href="contact.html">Contact Us</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2 fs-5" type="search" placeholder="Search for Recipe" aria-label="Search">
+                      <button class="btn btn-outline-success fs-5" type="submit">Recipe</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="food-slider">
+    
+
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/dish 1.jpg" class="d-block mx-auto d-flex w-80" alt="food item 1"></div>
+              <div class="swiper-slide"><img src="img/dish 2.jpg" class="d-block mx-auto d-flex w-80" alt="food item 2"></div>
+              <div class="swiper-slide"><img src="img/dish 3.webp" class="d-block mx-auto d-flex w-80" alt="food item 3"></div>
+              <div class="swiper-slide"><img src="img/dish 4.jpg" class="d-block mx-auto d-flex w-80" alt="food item 4"></div>
+              <div class="swiper-slide"><img src="img/dish 7.jpg" class="d-block mx-auto d-flex w-80" alt="food item 5"></div>
+              <div class="swiper-slide"><img src="img/dish 9.webp" class="d-block mx-auto d-flex w-80" alt="food item 6"></div>
+              <div class="swiper-slide"><img src="img/dish 8.jpg" class="d-block mx-auto d-flex w-80" alt="food item 7"></div>
+              <div class="swiper-slide"><img src="img/dish 6.jpg" class="d-block mx-auto d-flex w-80" alt="food item 8"></div>
+              <div class="swiper-slide"><img src="img/chef.jpg" class="d-block mx-auto d-flex w-80" alt="a chef"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </div>
+
+    <div class="recipe-section"  style="background-color: #e1f3f0">
+      <div class="container">
+        <div class="recipe-header d-block mx-auto my-3 d-flex">
+          <h2 class="recipe fs-1 d-block mx-auto my-3 d-flex">Recipes</h2>
+        </div>
+        <div class="recipe-body">
+          <div class="recipe-body-1">
+            <div class="recipe-image">
+              <img src="img/sample 3.jpg" alt="sample 1">
+            </div>
+            <div class="recipe-instruct mx-4" style="background-color: #bec7db">
+              <div class="instruct-1">
+                <h3>Beans Cake (Akara)</h3>
+              </div>
+              <div class="instruct-2"> 
+                <div class="instruct-a">
+                  <div class="instruct-a-head fs-3">
+                    <p>Ingredients</p>
+                  </div>
+                  <div class="instruct-a-list fs-5">
+                    <ul>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="instruct-b">
+                  <div class="instruct-b-head fs-3">
+                    <p>Process</p>
+                  </div>
+                  <div class="instruct-b-list fs-5">
+                    <ul>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recipe-body-1">
+            <div class="recipe-image mx-3 my-3">
+              <img src="img/sample 2.jpg" alt="sample 1">
+            </div>
+            <div class="recipe-instruct mx-3 my-3" style="background-color: #bec7db">
+              <div class="instruct-1">
+                <h3>Nigerian Jollof</h3>
+              </div>
+              <div class="instruct-2"> 
+                <div class="instruct-a">
+                  <div class="instruct-a-head">
+                    <p class="fs-3">Ingredients</p>
+                  </div>
+                  <div class="instruct-a-list fs-5">
+                    <ul>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="instruct-b">
+                  <div class="instruct-b-head">
+                    <p class="fs-3">Process</p>
+                  </div>
+                  <div class="instruct-b-list fs-5">
+                    <ul>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                      <li>Veniam blanditiis vel, ad temporibus provident voluptatibus officiis</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <div class="container-fluid">
+        <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+          <div class="container pb-0">
+            <section class="">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Recimag</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <hr class="w-100 clearfix d-md-none"/>
+                <hr class="w-100 clearfix d-md-none"/>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Check Out Our: 
+                  </h6>
+                  <p>
+                    <a href="home.html" class="text-white">Home</a>
+                  </p>
+                  <p>
+                    <a href="gallery.html" class="text-white">Gallery</a>
+                  </p>
+                  <p>
+                    <a href="about.html" class="text-white">About Us</a>
+                  </p>
+                  <p>
+                    <a href="contact.html" class="text-white">Contact Us</a>
+                  </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none"/>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                  <p><i class="fas fa-home mr-3"></i>Nigeria, FCT-Abuja</p>
+                  <p><i class="fas fa-envelope mr-3"></i>info@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 234 812 276 3992</p>
+                </div>
+              </div>
+            </section>
+            <hr class="my-3">
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <div class="p-3">
+                    © 2022 Copyright:
+                    <a class="text-white" href="home.html">recimag.com</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    
+    <script src="js/bootstrap.min.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

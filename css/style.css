@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome-text h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+}
+
+.container .btn {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+.container .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.background-image {
+    background-image: url(../img/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.blur-background {
+    background: rgba(200, 200, 250, 0.6);
+    backdrop-filter: blur(6px);
+    height: 100vh;
+	width: 100%;
+}
+
+.recipe-body-1, .instruct-2 {
+    display: flex;
+}
+
+.footer-section .row a {
+    text-decoration: none;
+}
