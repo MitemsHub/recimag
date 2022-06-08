@@ -11,12 +11,18 @@
 
 .container .btn {
     font-family: 'Satisfy', cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .container .btn a {
     text-decoration: none;
     color: black;
+}
+
+.fs-6 {
+    text-align: justify;
+    padding-right 80px;
 }
 
 .background-image {
@@ -25,14 +31,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .blur-background {
     background: rgba(200, 200, 250, 0.6);
     backdrop-filter: blur(6px);
     height: 100vh;
-	width: 100%;
+	width: 100vw;
 }
 
 .recipe-body-1, .instruct-2 {
@@ -41,4 +47,128 @@
 
 .footer-section .row a {
     text-decoration: none;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 769px) {
+    .welcome-text h1 {
+        font-size: 3.6rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .welcome-text {
+        padding-top: 2rem;
+    }
+
+    .container .btn {
+        font-size: 1.4rem;
+    }
+
+    .background-image {
+        max-height: 100vh;
+        width: 100vw;
+    }
+    
+    .rounded-circle {
+        width: 70vh;
+        height: 50vh;
+    }
+
+    .recipe-body-1, .instruct-2 {
+        display: block;
+    }
+
+    .recipe-image img {
+        height: 50vh;
+        width: 100vh;
+        padding-right: 40px;
+        margin-left: 70px;
+    }
+
+    .instruct-1 h3 {
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+    .welcome-text h1 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .welcome-text {
+        padding-top: 1rem;
+    }
+
+    .container .btn {
+        font-size: 0.7rem;
+    }
+
+    .background-image {
+        max-height: 100vh;
+        width: 100vw;
+    }
+    
+    .rounded-circle {
+        width: 70vh;
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .welcome-text h1 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .welcome-text {
+        padding-top: 1rem;
+    }
+
+    .container .btn {
+        font-size: 0.7rem;
+    }
+
+    .background-image {
+        max-height: 100vh;
+        width: 100vw;
+    }
+    
+    .rounded-circle {
+        width: 60vh;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .welcome-text h1 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .welcome-text {
+        padding-top: 1rem;
+    }
+
+    .container .btn {
+        font-size: 0.7rem;
+    }
+
+    .background-image {
+        max-height: 100vh;
+        width: 100vw;
+    }
+    
+    .rounded-circle {
+        width: 50vh;
+        height: 30vh;
+    }
 }
